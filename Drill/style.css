@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+}
+
+.bouton a {
+  display: block;
+  width: 300px;
+  line-height: 50px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  font-weight: bolder;
+}
+
+.bouton a:hover {
+  background-color: white;
+  color: black;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+.bouton2 a {
+  display: block;
+  width: 300px;
+  line-height: 50px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  font-weight: bolder;
+}
+
+.bouton2 a:hover {
+  background-color: white;
+  color: black;
+  width: 350px;
+  line-height: 70px;
+  font-size: 20px;
+  -webkit-transition: background-color 2s , height 2s;
+  transition: background-color 2s , height 2s;
+}
+
+.bouton3 a {
+  display: block;
+  width: 300px;
+  line-height: 50px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  font-weight: bolder;
+}
+
+.bouton3 a:hover {
+  background-color: white;
+  color: black;
+  -webkit-transition: background-color 2s , height 2s;
+  transition: background-color 2s , height 2s;
+  -webkit-transform: translate(120px, 0);
+          transform: translate(120px, 0);
+}
+/*# sourceMappingURL=style.css.map */

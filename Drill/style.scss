@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+}
+
+.bouton a {
+    @include property;
+    }
+    .bouton a:hover {
+        background-color: white;
+        color: black;
+        transition: background-color 1s;
+    }
+    
+    .bouton2 a {
+        @include property
+        }
+        .bouton2 a:hover {
+            background-color: white;
+            color: black;
+            width: 350px;
+            line-height: 70px;
+            font-size: 20px;
+            transition: background-color 2s , height 2s;
+            }
+    
+    .bouton3 a {
+        @include property
+        }
+        .bouton3 a:hover {
+            background-color: white;
+            color: black;
+            transition: background-color 2s , height 2s;
+            transform: translate(120px, 0);
+        }
